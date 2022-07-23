@@ -195,7 +195,7 @@ $( "body" ).mouseup(function(){
 /* ----------------- */
 
 $( "#startBtn" ).click(function(){
-    if ( algorithm == null ){ return;}
+    if ( algorithm == null ){ alert("A computer science portal");}
     if ( inProgress ){ update("wait"); return; }
 	traverseGraph(algorithm);
 });
